@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+
+.header_sec {
+    height: 20vh;
+    background-color: #fbb6ff;
+    width: 100%;
+    margin: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header_sec .header_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_sec .header_text h1 {
+    font-family: 'Inspiration', cursive;
+    font-size: 50px;
+}

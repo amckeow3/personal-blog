@@ -1,0 +1,13 @@
+.navbar {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.nav-link li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.nav-link li a {
+    color: black;
+}
