@@ -14,10 +14,10 @@ const Navigation = () => {
             <Navbar.Collapse id="basic-navbar-nav ">
                 <Nav className="navbar-nav" style={{ width: "100%" }}>
                     <ul className="nav nav-pills nav-link justify-content-center mx-auto">
-                        <li className="nav-item"><a className="nav-link" href="#home">Home</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#home">About</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#home">Technology</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#home">Lifestyle</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#home">home</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#home">about</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#home">technology</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#home">lifestyle</a></li>
                     </ul>
                 </Nav>
             </Navbar.Collapse>

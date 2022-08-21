@@ -1,28 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
 
 .header_sec {
-    height: 20vh;
-    background-color: #fbb6ff;
+    min-height: 20vh;
+    height: fit-content;
+    background-color: #fefcf6;
     width: 100%;
-    margin: 0;
     position: relative;
-    display: flex;
-    justify-content: center;
     align-items: center;
     -webkit-transition: all .5s ease-in;
     -o-transition: all .5s ease-in;
     transition: all .5s ease-in;
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0;
 }
 .header_sec .header_text {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.header_sec .header_text h1 {
+.header_sec .header_text .header1 {
+    /*font-family: 'Six Caps', sans-serif;*/
+    font-family: 'Emilys Candy', cursive;
+    font-size: calc(3.5vw + 3.5vh);
+    /*color: #ff2ad4;*/
+    color: #fe69b5;
+}
+
+.header_sec .header_text .header2 {
+    font-size: 4rem;
     font-family: 'Inspiration', cursive;
-    font-size: 50px;
 }

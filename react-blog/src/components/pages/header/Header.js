@@ -8,7 +8,7 @@ const Header = () => {
         <div className="header_sec d-block d-flex">
             <Container>
                 <div className="header_text mx-auto">
-                    <h1>Adrianna McKeown</h1>
+                    <div className="header1">happily ever adrianna</div>
                 </div>
             </Container>
         </div>
