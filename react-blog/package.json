@@ -40,6 +40,8 @@
     "@emotion/styled": "^11.10.0",
     "@mui/material": "^5.9.3",
     "bootstrap": "^5.2.0",
-    "react-bootstrap": "^2.4.0"
+    "react-bootstrap": "^2.5.0",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0"
   }
 }

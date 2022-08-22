@@ -11,17 +11,18 @@
     padding: 0px 30px;
 }
 
-.nav-link li a {
+.nav-link li .nav-link {
     color: black;
     font-size: calc(0.75vw + 0.75vh);
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
+    text-decoration: none;
 }
 
-.nav-link li a:hover {
+.nav-link li .nav-link:hover {
     color: #fe69b5;
 }
 
-.nav-link li a:focus {
+.nav-link li .nav-link:focus {
     color: #fe69b5;
 }
