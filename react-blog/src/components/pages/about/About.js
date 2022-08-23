@@ -18,7 +18,21 @@ const About = () => {
                     <Col sm={7} className="right_col">
                         <Row>
                             <div className="right_col_content">
-                                
+                                <Col>
+                                    <picture>
+                                        <img src={require("../../../images/Screenshot 2022-01-20 184448.jpg")} alt=""/> 
+                                    </picture>
+                                </Col>
+                                <Col>
+                                    <picture>
+                                        <img src={require("../../../images/17202682_1672679406365447_6002183217983859957_n.jpg")} alt=""/> 
+                                    </picture>
+                                </Col>
+                                <Col>
+                                    <picture>
+                                        <img src={require("../../../images/lilo 4 copy.png")} alt=""/> 
+                                    </picture>
+                                </Col>
                             </div>
                         </Row>
                     </Col>

@@ -1,11 +1,7 @@
 import React from "react";
 import './Navigation.css';
-import Home from "../pages/home/Home";
-import About from "../pages/about/About";
-import { Navbar, Nav, NavbarBrand, NavDropdown, Container, NavLink} from 'react-bootstrap';
-import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
-import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
-import { Route, Router, Routes, Link, Switch } from 'react-router-dom';
+import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Navigation = () => {
     return (

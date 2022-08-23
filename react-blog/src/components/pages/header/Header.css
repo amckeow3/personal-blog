@@ -47,22 +47,26 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-.header_sec .header_text {
-    line-height: 45px;
+    position: relative;
+    line-height: 1em;
 }
 
 .header_sec .header_text .header1 {
-    /*font-family: 'Six Caps', sans-serif;*/
-    /*font-family: 'Emilys Candy', cursive;*/
     font-family: glitter;
     font-size: calc(1vw + 3vh);
-    /*color: #ff2ad4;*/
     color: #fe69b5;
+    position: absolute;
+    top: auto; 
+    bottom: auto;
+    
 }
 
 .header_sec .header_text .header2 {
     font-size: calc(3vw + 3vh);
     /*font-family: 'Emilys Candy', cursive;*/
     font-family: klender;
+    position: absolute;
+    top: auto; 
+    bottom: auto;
+    margin-top: 1.5em;
 }
